@@ -6,3 +6,7 @@ License: LPPL (note: the `currbiol.bst` file is a slightly-modified version of a
 These files have been tested in [Overleaf](http://overleaf.com) and require compiling with bibtex. All information on how to write/modify bst files came from [this very helpful document](http://ctan.org/pkg/tamethebeast)
 
 See files in the `examples/` directory for a minimal demonstration of how to use the `currbiol.bst` file.
+
+## Output from example file
+
+![screenshot of output](example/screenshot.png)
