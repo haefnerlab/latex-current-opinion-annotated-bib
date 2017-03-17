@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+
+\title{How to annotate a bibliography}
+
+\author{Richard Lange}
+
+\begin{document}
+
+%%%%%%%%%%%%%
+% Main text %
+%%%%%%%%%%%%%
+
+\maketitle
+
+In the text, cite things as normal\cite{latexcompanion}. It works for single\cite{einstein} or for more\cite{knuthwebsite,latexcompanion} citations in a group.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography configuration %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set the title of the bibliography page
+\renewcommand{\refname}{References and recommended reading}
+
+% Link to the .bib file containing annotations
+\bibliography{sources_and_annotations}
+
+% Link to modified style file.
+\bibliographystyle{currbiol}
+
+% All further config is handled by currbiol.bst, which looks for the 'outstanding' or 'special' fields in a bib entry
+
+\null
+
+\end{document}

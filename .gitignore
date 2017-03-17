@@ -1,0 +1,6 @@
+*.DS_Store
+example/main.aux
+example/main.log
+example/main.pdf
+example/main.bbl
+example/main.blg
